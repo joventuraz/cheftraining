@@ -1,5 +1,5 @@
 DEPENDENCIES
-  webServer
+  tomcat_app
     path: .
     metadata: true
 
@@ -11,6 +11,5 @@ GRAPH
   tomcat (0.17.0)
     java (>= 0.0.0)
     openssl (>= 0.0.0)
-  webServer (0.1.0)
-    java (>= 0.0.0)
+  tomcat_app (0.1.0)
     tomcat (>= 0.0.0)

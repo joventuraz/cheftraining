@@ -1,4 +1,3 @@
-include_recipe 'java'
 include_recipe 'tomcat'
 
 directory "#{node['tomcat']['webapp_dir']}/ROOT"
