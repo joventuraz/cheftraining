@@ -1,0 +1,4 @@
+source "https://api.berkshelf.com"
+
+cookbook 'page_writer', git: 'https://github.com/joventuraz/page_writer.git'
+metadata

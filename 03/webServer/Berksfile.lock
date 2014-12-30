@@ -1,0 +1,12 @@
+DEPENDENCIES
+  page_writer
+    git: https://github.com/joventuraz/page_writer.git
+    revision: 0d4256aabc3bcd7730a6af5d98e85ddba49042c9
+  webServer
+    path: .
+    metadata: true
+
+GRAPH
+  page_writer (0.1.2)
+  webServer (0.1.0)
+    page_writer (>= 0.0.0)
