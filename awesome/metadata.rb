@@ -1,0 +1,10 @@
+name 'awesome'
+maintainer 'Dennis'
+maintainer_email 'dhel@gmail.com'
+license 'All rights reserved'
+description 'Installs/Configures awesome'
+long_description 'Installs/Configures awesome'
+version '0.1.0'
+
+depends 'php'
+depends 'apache2'
